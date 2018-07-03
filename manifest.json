@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Light Weight Ad Blocker",
+    "version": "1.0",
+
+    "description": "Watching films, anime, vid, etc without being interrupted by ads! _ Writen by LQ!",
+    "icons": { "128": "icon/icon.png"},
+
+    "browser_action": {
+        "default_icon": {
+            "128": "icon/icon.png"
+        },
+        "default_title": "Ad Blocker (Light)"   
+        
+    },
+
+    "author": "Le Minh Quyet (Joeyvx)",
+    "background": {
+        "scripts": ["scripts/background_script.js"]
+       
+    },
+    
+    "permissions": [
+        "http://*/",
+        "https://*/",
+        "notifications",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
