@@ -4,4 +4,4 @@ This extension will work on chromium - based browsers. It will help you block ad
 
 ## Demo image
 
-![Screenshot](https://imgur.com/a/9XE8JBB)
+![Screenshot](Demo.JPG)
